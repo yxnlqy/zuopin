@@ -1,0 +1,528 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+/*头部*/
+
+header {
+	width: 100%;
+	height: 0.92rem;
+	background: #0078E6;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+
+.head1 {
+	width: 100%;
+	height: 0.92rem;
+}
+
+.head-box {
+	width: 2.01rem;
+	height: 0.92rem;
+	/*background: yellow;*/
+	margin: 0 auto;
+}
+
+.head-tubiao {
+	width: 0.7rem;
+	height: 0.67rem;
+	/*background: pink;*/
+	float: left;
+	margin-top: 0.13rem;
+}
+
+.head-tubiao img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.head-wenzi {
+	width: 1.15rem;
+	height: 100%;
+	/*background: pink;*/
+	float: left;
+	margin-left: 0.16rem;
+	font-size: 0.34rem;
+	color: white;
+	text-align: center;
+	line-height: 0.92rem;
+}
+
+
+/*banner*/
+
+.banner {
+	width: 100%;
+	height: 2.8rem;
+	background: pink;
+}
+
+.banner img {
+	width: 100%;
+	height: 100%;
+}
+
+/*首页*/
+
+.shouye {
+	width: 100%;
+	height: 0.82rem;
+	background: #f5f6fa;
+}
+
+.shouye1 {
+	display: block;
+	font-size: 0.22rem;
+	color: black;
+	float: left;
+	line-height: 0.82rem;
+	margin-left: 0.23rem;
+}
+
+:root {
+	width: 100%;
+	height: 16.8rem;
+	background: #f5f6fa;
+}
+
+/* 免费试学 */
+
+.mfsx {
+	width: 93.6%;
+	height: 2.26rem;
+	background: #ffffff;
+	margin: 0 auto;
+	margin-bottom: 0.1rem;
+}
+
+.mfsx ul a li {
+	width: 25%;
+	height: 2.26rem;
+	background: #ffffff;
+	float: left;
+}
+
+.mftu {
+	width: 1.21rem;
+	height: 1.21rem;
+	background: #ffffff;
+	margin-top: 0.28rem;
+	margin-left: 0.27rem;
+}
+
+.mftu img {
+	width: 1.21rem;
+	height: 1.21rem;
+}
+
+.mfwen {
+	width: 1.21rem;
+	height: 0.57rem;
+	background: #ffffff;
+	margin-left: 0.27rem;
+	font-size: 0.20rem;
+	color: #000000;
+	text-align: center;
+	line-height: 0.57rem;
+}
+
+
+/* 关于前端工程师 */
+
+.qianduan {
+	width: 93.6%;
+	height: 5.35rem;
+	background: #ffffff;
+	margin: 0 auto;
+}
+
+.nrwen-top {
+	width: 100%;
+	height: 0.88rem;
+	background: #ffffff;
+}
+
+.nrw-left {
+	width: 0.04rem;
+	height: 0.3rem;
+	background: #01b5ff;
+	float: left;
+	margin-left: 0.19rem;
+	margin-top: 0.32rem;
+}
+
+.nrw-right {
+	width: 6.4rem;
+	height: 0.73rem;
+	background: #ffffff;
+	float: left;
+	margin-top: 0.14rem;
+	border-bottom: 0.01rem dashed #999999;
+	font-size: 0.23rem;
+	color: #444;
+	font-weight: bolder;
+	/* text-align: center; */
+	line-height: 0.73rem;
+	margin-left: 0.19rem;
+}
+
+.qd-bottom {
+	width: 6.6rem;
+	height: 3.93rem;
+	background: #ffffff;
+	margin-top: 0.21rem;
+	margin-left: 0.42rem;
+	font-size: 0.24rem;
+	color: #504c4c;
+}
+
+.qd-bottom .pre2,
+.qd-bottom .pre4,
+.qd-bottom .pre6 {
+	color: #01b5ff;
+	font-weight: bolder;
+	margin-top: 0.06rem;
+}
+
+.qd-bottom .pre1,
+.qd-bottom .pre3,
+.qd-bottom .pre5 {
+	/* color: #01b5ff;
+	font-weight: bolder; */
+	margin-top: 0.06rem;
+}
+
+
+/* 行业就业薪资 */
+
+.hyxz {
+	width: 93.6%;
+	height: 5.76rem;
+	background: #ffffff;
+	margin: 0 auto;
+	margin-top: 0.1rem;
+}
+
+.jyxz-bottom {
+	width: 100%;
+	height: 4.41rem;
+	background: #ffffff;
+	padding-top: 0.47rem;
+}
+
+.jyxztu {
+	width: 5.33rem;
+	height: 3.59rem;
+	background: #ffffff;
+	/* margin-top: 0.47rem; */
+	margin-left: 0.83rem;
+}
+
+.jyxztu img {
+	width: 5.33rem;
+	height: 3.59rem;
+}
+
+.jyxz-wen {
+	width: 3.36rem;
+	height: 0.6rem;
+	background: #ffffff;
+	margin-left: 1.93rem;
+	margin-top: 0.23rem;
+	font-size: 0.26rem;
+	color: #0e050a;
+	text-align: center;
+	line-height: 0.64rem;
+}
+
+
+/* 可就业岗位 */
+
+.kjy {
+	width: 93.6%;
+	height: 5.55rem;
+	background: #ffffff;
+	margin: 0 auto;
+	margin-top: 0.1rem;
+}
+
+.kjy-bottom {
+	width: 100%;
+	height: 4.47rem;
+	background: #ffffff;
+	margin: 0 auto;
+	padding-top: 0.2rem;
+}
+
+.kjy-js {
+	width: 6.13rem;
+	height: 0.56rem;
+	background: #ffffff;
+	margin-left: 0.4rem;
+	/* margin-top: 0.2rem; */
+}
+
+.kjy-jstu {
+	width: 0.56rem;
+	height: 0.56rem;
+	background: #ffffff;
+	float: left;
+}
+
+.kjy-jstu img {
+	display: block;
+	width: 0.56rem;
+	height: 0.56rem;
+	float: left;
+}
+
+.kjy-js-wen {
+	width: 5.33rem;
+	height: 0.55rem;
+	background: #ffffff;
+	float: left;
+	margin-left: 0.2rem;
+}
+
+.je-wentop {
+	width: 2.49rem;
+	height: 0.24rem;
+	background: #ffffff;
+	font-size: 0.24rem;
+	color: #01b5ff;
+	margin-bottom: 0.05rem;
+}
+
+.je-wenbottom {
+	width: 100%;
+	height: 0.16rem;
+	background: #ffffff;
+	font-size: 0.16rem;
+	color: #3e3a39;
+}
+
+.kjy-js1 {
+	width: 6.13rem;
+	height: 0.56rem;
+	background: #ffffff;
+	margin-left: 0.4rem;
+	margin-top: 0.2rem;
+}
+
+
+/* 学员薪资 */
+
+.xyxz {
+	width: 93.6%;
+	height: 5.1rem;
+	background: #ffffff;
+	margin: 0 auto;
+	margin-top: 0.11rem;
+}
+
+.xyxz-bottom {
+	width: 6.67rem;
+	height: 4.2rem;
+	background: #ffffff;
+	margin-left: 0.19rem;
+}
+
+.xy-top {
+	width: 100%;
+	height: 0.71rem;
+	background: #ffffff;
+	margin-bottom: 0.05rem;
+}
+
+.xm {
+	width: 1.24rem;
+	height: 0.71rem;
+	background: #ffffff;
+	float: left;
+	margin-right: 0.17rem;
+	text-align: center;
+	line-height: 0.71rem;
+	font-size: 0.23rem;
+}
+
+.xz {
+	width: 1.37rem;
+	height: 0.71rem;
+	background: #ffffff;
+	float: left;
+	margin-right: 1.4rem;
+	line-height: 0.71rem;
+	text-align: center;
+	font-size: 0.23rem;
+}
+
+.qtfu {
+	width: 1.65rem;
+	height: 0.71rem;
+	background: #ffffff;
+	float: left;
+	line-height: 0.71rem;
+	text-align: center;
+	font-size: 0.23rem;
+}
+
+.xy-bottom {
+	width: 6.63rem;
+	height: 0.34rem;
+	background: #ffffff;
+	border-left: 0.01rem dashed #01b5ff;
+	position: relative;
+}
+
+.xy-dian1 {
+	width: 0.19rem;
+	height: 0.15rem;
+	background: #94e0ff;
+	/* border: 0.08rem solid #94e0ff; */
+	border-radius: 50%;
+	padding-top: 0.04rem;
+	position: absolute;
+	bottom: 0;
+	left: -0.11rem;
+}
+
+.xd {
+	width: 0.11rem;
+	height: 0.11rem;
+	background: #01b5ff;
+	border-radius: 50%;
+	margin: 0 auto;
+	/* margin-top: 0.04rem; */
+}
+
+.xmwen {
+	width: 0.86rem;
+	height: 0.3rem;
+	background: #ffffff;
+	float: left;
+	margin-left: 0.22rem;
+	margin-top: 0.04rem;
+	font-size: 0.22rem;
+	color: #666666;
+}
+
+.xzwen {
+	width: 1.5rem;
+	height: 0.3rem;
+	background: #ffffff;
+	float: left;
+	font-size: 0.22rem;
+	color: #ffa201;
+	margin-left: 0.25rem;
+	margin-top: 0.04rem;
+}
+
+.qtwen {
+	width: 3.8rem;
+	height: 0.3rem;
+	background: #ffffff;
+	float: left;
+	/* margin-left: 0.22rem; */
+	font-size: 0.22rem;
+	color: #666666;
+	margin-top: 0.04rem;
+}
+
+.xy-bottom1 {
+	width: 6.63rem;
+	height: 0.71rem;
+	background: #ffffff;
+	border-left: 0.01rem dashed #01b5ff;
+	position: relative;
+	margin-top: 0.02rem;
+}
+
+.xmwen1 {
+	width: 0.86rem;
+	height: 0.3rem;
+	background: #ffffff;
+	float: left;
+	margin-left: 0.22rem;
+	margin-top: 0.41rem;
+	font-size: 0.22rem;
+	color: #666666;
+}
+
+.xzwen1 {
+	width: 1.5rem;
+	height: 0.3rem;
+	background: #ffffff;
+	float: left;
+	font-size: 0.22rem;
+	color: #ffa201;
+	margin-left: 0.25rem;
+	margin-top: 0.41rem;
+}
+
+.qtwen1 {
+	width: 3.8rem;
+	height: 0.3rem;
+	background: #ffffff;
+	float: left;
+	/* margin-left: 0.22rem; */
+	font-size: 0.22rem;
+	color: #666666;
+	margin-top: 0.41rem;
+}
+
+.zhdian {
+	width: 0.1rem;
+	height: 0.16rem;
+	background: #ffffff;
+	border-left: 0.01rem dashed #01b5ff;
+}
+
+
+/* 课程安排 */
+
+.kcap {
+	width: 93.6%;
+	height: 4.98rem;
+	background: #ffffff;
+	margin: 0 auto;
+	margin-top: 0.1rem;
+}
+
+.kcaptu {
+	width: 6.47rem;
+	height: 3.71rem;
+	background: #ffffff;
+	margin-top: 0.34rem;
+	margin-left: 0.34rem;
+}
+
+.kcaptu img {
+	width: 6.47rem;
+	height: 3.71rem;
+}
+
+
+/*底部*/
+
+footer {
+	width: 100%;
+	height: 1.21rem;
+	background: #f5f6fa;
+	float: left;
+}
+
+.foot {
+	display: block;
+	height: 0.18rem;
+	font-size: 0.18rem;
+	color: #666666;
+	text-align: center;
+	padding-top: 0.3rem;
+}

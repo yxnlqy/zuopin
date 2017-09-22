@@ -1,0 +1,260 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+
+/*头部*/
+
+header {
+	width: 100%;
+	height: 0.92rem;
+	background: #0078E6;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+
+.head1{
+	width: 100%;
+	height: 0.92rem;
+}
+
+.head-box {
+	width: 2.01rem;
+	height: 0.92rem;
+	/*background: yellow;*/
+	margin: 0 auto;
+}
+
+.head-tubiao {
+	width: 0.7rem;
+	height: 0.67rem;
+	/*background: pink;*/
+	float: left;
+	margin-top: 0.13rem;
+}
+
+.head-tubiao img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.head-wenzi {
+	width: 1.15rem;
+	height: 100%;
+	/*background: pink;*/
+	float: left;
+	margin-left: 0.16rem;
+	font-size: 0.34rem;
+	color: white;
+	text-align: center;
+	line-height: 0.92rem;
+}
+
+
+/*banner*/
+
+.banner {
+	width: 100%;
+	height: 2.8rem;
+	background: pink;
+}
+
+.banner img {
+	width: 100%;
+	height: 100%;
+}
+
+
+/*首页*/
+
+.shouye {
+	width: 100%;
+	height: 0.82rem;
+	background: #f5f6fa;
+}
+
+.shouye1 {
+	display: block;
+	font-size: 0.22rem;
+	color: black;
+	float: left;
+	line-height: 0.82rem;
+	margin-left: 0.23rem;
+}
+
+.xueyuan {
+	width: 100%;
+	height: 15.6rem;
+	background: #F5F6FA;
+}
+
+.xueyuan-box {
+	width: 7.02rem;
+	height: 1.85rem;
+	background: white;
+	margin-bottom: 0.1rem;
+	margin-left: 0.24rem;
+}
+
+.xueyuan-left {
+	width: 1.93rem;
+	height: 1.45rem;
+	background: #c8c8c8;
+	margin-left: 0.2rem;
+	margin-top: 0.2rem;
+	float: left;
+}
+
+.xueyuan-right {
+	width: 4.6rem;
+	height: 1.45rem;
+	/*background: pink;*/
+	float: left;
+	margin-left: 0.29rem;
+	margin-top: 0.2rem;
+}
+
+.mingzi {
+	width: 3.09rem;
+	height: 0.51rem;
+}
+
+.xue1 {
+	display: block;
+	font-size: 0.25rem;
+	padding-top: 0.2rem;
+	float: left;
+}
+
+.xue1-1 {
+	display: block;
+	font-size: 0.11rem;
+	padding-top: 0.24rem;
+	float: left;
+	margin-left: 0.11rem;
+}
+
+.henxian {
+	width: 1.2rem;
+	height: 0.02rem;
+	border-bottom: 0.02rem dashed black;
+}
+
+
+/*.xue2{
+	display: block;
+	font-size: 0.02rem;
+	padding-top: 0.1rem;
+}*/
+
+.xue3 {
+	display: block;
+	font-size: 0.25rem;
+	color: #94d43b;
+	padding-top: 0.09rem;
+}
+
+.xue4 {
+	display: block;
+	font-size: 0.22rem;
+	padding-top: 0.1rem;
+}
+
+.tiaozhuan {
+	width: 100%;
+	height: 0.7rem;
+	background: white;
+}
+
+.tiaozhuan ul {
+	margin-left: 0.37rem;
+	float: left;
+	/*background: pink;*/
+}
+
+.tiaozhuan ul li {
+	margin-right: 0.14rem;
+	background: yellow;
+	float: left;
+	margin-top: 0.19rem;
+}
+
+.tiaozhuan ul li img {
+	height: 0.32rem;
+	display: block;
+}
+
+.tz1 {
+	font-size: 0.12rem;
+	color: black;
+	line-height: 0.32rem;
+	/*width: 0.4rem;*/
+	/*height: 0.32rem;*/
+	float: left;
+	margin-top: 0.19rem;
+	margin-left: 0.16rem;
+}
+
+.tz2 {
+	width: 0.42rem;
+	height: 0.32rem;
+	float: left;
+	margin-top: 0.19rem;
+	margin-left: 0.1rem;
+}
+
+.tz2 img {
+	width: 100%;
+	height: 100%;
+	float: left;
+	display: block;
+}
+
+.tz3 {
+	font-size: 0.12rem;
+	color: black;
+	line-height: 0.32rem;
+	/*width: 0.14rem;*/
+	/*height: 0.32rem;*/
+	float: left;
+	margin-top: 0.19rem;
+	margin-left: 0.1rem;
+}
+
+.go {
+	width: 0.32rem;
+	height: 0.32rem;
+	float: left;
+	margin-top: 0.19rem;
+	margin-left: 0.2rem;
+}
+
+.go img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+/*底部*/
+footer {
+	width: 100%;
+	height: 0.92rem;
+	background: #f5f6fa;
+}
+
+.foot {
+	display: block;
+	font-size: 0.2rem;
+	color: #666666;
+	text-align: center;
+	padding-top: 0.14rem;
+}
+
+
+
