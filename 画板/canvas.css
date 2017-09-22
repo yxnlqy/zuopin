@@ -1,0 +1,187 @@
+*{
+   margin:0;
+   padding:0;
+   list-style: none;
+   text-decoration: none;
+}
+/* @font-face {
+  font-family: 'iconfont';  project id 398717
+  src: url('http://at.alicdn.com/t/font_398717_w1fr59cmz9uul3di.eot');
+  src: url('http://at.alicdn.com/t/font_398717_w1fr59cmz9uul3di.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_398717_w1fr59cmz9uul3di.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_398717_w1fr59cmz9uul3di.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_398717_w1fr59cmz9uul3di.svg#iconfont') format('svg');
+} */
+.heng{
+	width: 95px;
+	height: 1px;
+	background: #fff;
+	margin-left: 10px;
+	margin-top: 230px;
+	margin-bottom: 20px;
+}
+.heng1{
+	width: 95px;
+	height: 1px;
+	background: #fff;
+	margin-left: 10px;
+	margin-top: 140px;
+	margin-bottom: 20px;
+}
+.heng2{
+	width: 95px;
+	height: 1px;
+	background: #fff;
+	margin-left: 10px;
+	margin-top: 90px;
+	margin-bottom: 20px;
+}
+.iconfont{
+	font-family: "iconfont";
+    color: #000;
+    font-size: 25px;
+}
+.top{
+	width:120px;
+	height:600px;
+	background:#79EAFC;
+	padding: 30px 0px;
+	float: left;
+}
+.top1 li{
+	width:45px;
+	height:45px;
+	float:left;
+	background: #fff;
+	float: left;
+	border-radius: 5px;
+	margin-right: 12px;
+    margin-bottom: 10px;
+}
+.top li:nth-of-type(2n-1){
+	margin-left: 10px;
+}
+.top li:nth-of-type(2n){
+	margin-right: 0px;
+}
+.top1 .iconfont{
+	font-size:30px;
+	text-align: center;
+	line-height: 40px;	
+}
+.top1 li:last-child{
+	margin-right:0;
+}
+.bottom{
+	width:1229px;
+	height:660px;
+	margin:0 auto;
+	margin-top: 3px;
+	border:1px solid #cccccc;
+	box-sizing: border-box;
+	margin-left: 118px;
+	position:relative;
+}
+.era{
+	width:20px;
+	height:20px;
+	background: #cccccc;
+	position:absolute;
+	top:0;
+	left:0;
+	display: none;
+}
+.mask{
+	width:1229px;
+	height:660px;
+	float: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.left li{
+	width:45px;
+	height:45px;
+	float:left;
+	margin-right:10px;
+	background: #fff;
+	border-radius: 5px;
+	float: left;
+}
+.left li:nth-child(2){
+	margin-right:0;
+	margin-bottom:10px;
+}
+.left li:nth-child(4){
+	margin-right:0;
+	margin-bottom:0;
+}
+
+.left .iconfont{
+	font-size:30px;
+	text-align: center;
+	line-height: 40px;	
+}
+.right li{
+	width:45px;
+	height:45px;
+	float:left;
+	margin-right:10px;
+	background: #fff;
+    border-radius: 5px;
+}
+.right li:nth-child(2){
+	margin-right:0;
+	margin-bottom:10px;
+}
+.right li:nth-child(4){
+	margin-right:0;
+	margin-bottom:0;
+}
+.right .iconfont{
+	font-size:30px;
+	text-align: center;
+	line-height: 40px;	
+}
+.right input{
+	width:30px;
+	height:25px;
+	margin: auto;
+	margin-top:7px; 
+}
+.right active{
+	border:1px solid #dfdfdf;
+	box-sizing:border-box;
+}
+.last li{
+	width:45px;
+	height:45px;
+	float:left;
+	margin-right:10px;
+	background: #fff;
+	border-radius: 5px;
+}
+.last li:nth-child(2){
+	margin-right:0;
+	margin-bottom:10px;
+}
+.last li:nth-child(4){
+	margin-right:0;
+	margin-bottom:0;
+	
+}
+
+.last .iconfont{
+	font-size:30px;
+	text-align: center;
+	line-height: 40px;	
+}
+.last .reverse{
+	font-size:18px;
+}
+.cut{
+	position:absolute;
+	left:0;
+	top:0;
+	display:none;
+}

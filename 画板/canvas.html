@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>画板</title>
+	<link rel="stylesheet" href="canvas.css"/>
+	<link rel="stylesheet" href="iconfont/iconfont.css">
+	<script src="canvas.js"></script>
+	<script src="click.js"></script>
+</head>
+<body>
+	<div class="top">
+	  <ul class="top1">
+		<li class="iconfont icon-xiexian" id="line"></li>
+		<li class="iconfont icon-xuxian" id="dashed"></li>
+		<li class="iconfont icon-juxing1" id="squery"></li>
+		<li class="iconfont icon-duobianxing" id="five"></li>
+		<li class="iconfont icon-yuan1" id="circle"></li>
+		<li class="iconfont icon-iconfontpencil" id="pencil"></li>
+		<li class="iconfont icon-wujiaoxing" id="fivestar"></li>
+		<li class="iconfont wenzi icon-wenzi" id="text"></li>
+	  </ul>
+	  <div class="heng"></div>
+	 <ul class="right">
+		<li class="iconfont icon-tianchong style" active='true' id="fill"></li>
+		<li class="iconfont">
+			<input type="color" class="color" id="tc"/>
+		</li>
+		<li class="iconfont icon-miaobian style" id="stroke"></li>
+		<li class="iconfont">
+			<input type="color" class="color" id="mb"/>
+		</li>
+	 </ul>
+	 <div class="heng1"></div>
+	 <ul class="left">
+		<li class="iconfont icon-chexiao" id="ctrlz"></li>
+		<li class="iconfont icon-xiangpica" id="clear"></li>
+	 </ul>
+	 <div class="heng2"></div>
+	 <ul class="last">
+		<!-- <li class="iconfont" id="ctrlz">&#xe618;</li> -->
+		<li class="iconfont icon-baocun1" id="clear" ><a href="" class="baocun"></a></li>
+		<li class="iconfont reverse">反相</li>
+		<li class="iconfont icon-caijian1 clip"></li>
+	 </ul>
+	 
+	</div>
+	<div class="bottom">
+	  <canvas width="1226" height="600">
+	  </canvas>
+	  <div class="era"></div>
+	  <div class="cut"></div>
+	  <div class="mask"></div>
+	</div>
+</body>
+</html>
+<script>
+	let canvas = document.querySelector('canvas');
+    let mask = document.querySelector('.mask');
+	let draws = new draw(canvas,mask);
+</script>

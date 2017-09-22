@@ -1,0 +1,313 @@
+/*
+* @Author: Lenovo
+* @Date:   2017-09-03 23:16:38
+* @Last Modified by:   Lenovo
+* @Last Modified time: 2017-09-04 01:13:40
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 40px;
+	background: #F9F9F9;
+}
+main{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+}
+.headLeft{
+	width: 80%;
+	height: 40px;
+	float: left;
+}
+.headLeft ul li{
+	height: 100%;
+	float: left;
+	line-height: 40px;
+	margin-right: 20px;
+}
+.headLeft ul li span{
+	color: #A3A3A3;
+	font-size: 10px;
+}
+.iconfont{
+	font-family: "iconfont";
+	color: #A3A3A3;
+	font-size: 6px;
+	font-weight: 500;
+}
+.headRight{
+	width: 20%;
+	height: 100%;
+	float: left;
+	line-height: 40px;
+}
+.headRight ul li{
+	float: right;
+	margin-right: 10px;
+}
+.headRight ul li span{
+	color: #A3A3A3;
+	font-size: 10px;
+}
+/* 头部结束 */
+/* 导航开始 */
+nav{
+	width: 100%;
+	height: 90px;
+	background: #fff;
+	position: relative;
+	border-bottom: 1px solid #EAEAEA;
+}
+main{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}
+.navCenter{
+	width: 7.3%;
+	height: 80px;
+    /* float: left; */
+    padding: 5px 0px;
+    margin: 0 auto;
+}
+.navCenter img{
+	width: 98px;
+	height: 80px;
+	margin: 0 auto;
+	/* margin-top: 3px; */
+}
+.navLeft{
+	width: 46.35%;
+	height: 100%;
+	float: left;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.navLeft ul li{
+	float: left;
+	width: 33.333333%;
+	height: 100%;
+	text-align: center;
+}
+.navLeft ul li a{
+	line-height: 90px;
+	font-size: 16px;
+	color: #8E8E8E;
+}
+.navLeft ul li a:hover{
+	color: #ff6700;
+}
+.navRight{
+	width: 46.35%;
+	height: 100%;
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.navRight ul li{
+	float: left;
+	width: 33.333333%;
+	height: 100%;
+	text-align: center;
+}
+.navRight ul li a{
+	line-height: 90px;
+	font-size: 16px;
+	color: #8E8E8E;
+}
+.navRight ul li a:hover{
+	color: #ff6700;
+}
+/* .navRight ul li:hover{
+	background: #ff6700;
+} */
+/* 导航结束 */
+/* 返回首页 */
+.bjtu{
+	width: 100%;
+	height: 389px;
+	/* background: url('../img/kt.jpg') no-repeat center/cover; */
+}
+.bjtu1{
+	width: 100%;
+	height: 500px;
+	background: url('../img/kt.jpg') no-repeat center/cover;
+	position: fixed;
+	top: 60px;
+	left: 0;
+	z-index: -1;
+}
+.back{
+	width: 100%;
+	height: 39px;
+	background: #fff;
+}
+.nrBox{
+	width: 1190px;
+	height: 29px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 5px;
+	line-height: 29px;
+}
+.nrBox>a{
+	color: #707070;
+	font-size: 14px;
+}
+.nrBox>span{
+	color: #9696A3;
+	font-size: 14px;
+}
+.zb{
+	width: 100%;
+	height: 350px;
+	background: rgba(0, 0, 0, 0);
+	overflow: hidden;
+}
+.zbwen{
+	width: 216px;
+	height: 43px;
+	/* background: #190; */
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 153px;
+}
+.zbwen>span:first-of-type{
+	display: block;
+	color: #447C81;
+	font-size: 22px;
+}
+.zbwen>span:nth-of-type(2){
+	color: #447C81;
+	font-size: 12px;
+}
+/* 客厅家具展示开始 */
+.ktzs{
+	width: 100%;
+	height: 1380px;
+	background: #F2F2F2;
+}
+.zsq{
+	width: 1024px;
+	height: 100%;
+	background: #fff;
+	margin: 0 auto;
+}
+.ktwen{
+	width: 880px;
+	height: 100px;
+	background: #fff;
+	padding: 0 72px;
+}
+.ktwenL{
+	width: 80px;
+	height: 36px;
+	float: left;
+    line-height: 36px;
+    margin-top: 32px;
+}
+.ktwenR{
+	width: 173px;
+	height: 46px;
+	float: right;
+	line-height: 46px;
+	margin-top: 27px;
+}
+.ktwenR>input{
+
+}
+.ktwenL>span{
+	font-size: 20px;
+	font-weight: 400;
+	/* font-family: "黑体"; */
+}
+.splbul{
+	width: 1024px;
+	height: auto;
+
+}
+.splbul>li:hover{
+	box-shadow: 0 10px 10px 3px rgba(0, 0, 0, 0.1);
+	transform: translateY(-4px);
+	transition: 0.3s;
+}
+.splbul>li{
+	width: 256px;
+	height: 316px;
+	float: left;
+}
+.splbul>li>a>img{
+	width: 256px;
+	height: 256px;
+}
+.splbul>li>a>i{
+	display: block;
+	font-style: normal;
+	font-size: 12px;
+	color: #888;
+	text-align: center;
+	line-height: 20px;
+}
+.splbul>li>a>.jiage{
+	font-size: 16px;
+	color: #ff6700;
+}
+/* 客厅家具展示结束 */
+/* 固定导航 */
+.gdNav{
+	position: fixed;
+	top: -90px;
+	right: 0;
+	z-index: 999;
+}
+/* 底部开始 */
+footer{
+	width: 1019px;
+	height: 251px;
+	background: #F2F2F2;
+	padding-top: 60px;
+	padding-left: 330px;
+}
+footer>ul{
+	float: left;
+	width: 170px;
+	height: 150px;
+	line-height: 43px;
+}
+footer>ul>h4{
+	color: #868686;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+}
+footer>ul>li>a{
+	font-size: 14px;
+	color: #888888;
+}
+.ewmt{
+	width: 100px;
+	height: 102px;
+}
+.ewmt>img{
+	width: 100px;
+	height: 102px;
+}
+.logot{
+	width: 98px;
+	height: 80px;
+}
+.logot>img{
+	width: 98px;
+	height: 80px;
+}
+/* 底部结束 */
